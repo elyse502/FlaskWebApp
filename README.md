@@ -4,8 +4,11 @@ Make sure you have the latest version of Python installed.
 ```groovy
 git clone <repo-url>
 ```
+
 ```groovy
-pip install -r requirements.txt
+$ virtualenv env
+$ source env/bin/activate
+(env) $ pip install -r requirements.txt
 ```
 ## Running The App
 ```groovy
